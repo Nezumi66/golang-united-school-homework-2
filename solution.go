@@ -6,6 +6,12 @@ import (
 
 type intCustomType int
 
+const (
+	SidesTriangle = 3
+	SidesCircle   = 0
+	SidesSquare   = 4
+)
+
 func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 	switch sidesNum {
 	case 0:
